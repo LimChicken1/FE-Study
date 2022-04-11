@@ -1,0 +1,11 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  // endofLine : 마지막에 한칸 띄워주기
+  "endOfLine": "lf,
+  //  "80줄이 넘어가면 줄바꿈을 해라
+  "printWidth": 80,
+  "semi": false,
+  "singleQuote": false
+
+}
