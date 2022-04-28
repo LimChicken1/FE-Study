@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins",sans-serif;
+}
+
+.sr-only {
+  position: absolute;
+  z-index: -100;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+}
+
+
+.like-button {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* ▼ WHERE YOUR CODE BEGINS */
+
+.card {
+  display: flex;
+  width: 840px;
+  padding: 24px;
+}
+
+.card-content {
+  flex-grow: 1;
+}
+
+.card-image {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-image: url(./asets/img-house.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-right: 24px;
+}
+
+.card-image .like-button {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background-color: #FFFFFF;
+  background-image: url(./asets/icon-favorite.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 24px 24px;
+  cursor: pointer;
+
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 9px;
+}
+
+.plus-badge {
+  display: inline-block;
+  background-color: #92174D;
+  font-weight: 500;
+  margin-right: 6px;
+  line-height: 1.428571428571429;
+  font-size: 14px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  padding: 1px 8px;
+  text-transform: uppercase;
+}
+
+
+.card-title {
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.property-type {
+  font-size: 16px;
+  line-height: 1.25;
+  color: #7D858F;
+}
+
+property-rate {
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.property-rate strong {
+  color: #151B26;
+  font-weight: 400;
+}
+
+.property-rate span {
+  color: #7D858F;
+}
+
+.property-rate::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  width: 16px;
+  height: 16px;
+  background-image: url(./asets/icon-star.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.property-detail {
+  font-size: 14px;
+  line-height: 1.142857142857143;
+  color: #7D858F;
+}
+
+.property-detail dd span::after {
+  content: '•';
+  margin: 0 8px;
+}
+
+.property-detail dd span:last-child:after{
+  content: "";
+  margin: 0;
+}
+
+.property-detail div:first-child{
+  margin-bottom: 8px;
+}

@@ -1,0 +1,45 @@
+@font-face {
+  font-family:"NanumSquareRoundL" ;
+  font-style: normal;
+  font-weight: 300;
+  src: url('./assets/font/NanumSquareRoundL.eot'); /* IE9 Compat Modes */
+  src: url('./assets/font/NanumSquareRoundL.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./assets/font/NanumSquareRoundL.eot.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./assets/font/NanumSquareRoundL.eot.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./assets/font/NanumSquareRoundL.eot.ttf')  format('truetype'); /* Safari, Android, iOS */       
+}
+
+
+@font-face {
+  font-family: "NanumSquareRoundL" ;
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/font/NanumSquareRoundR.eot'); /* IE9 Compat Modes */
+  src: url('./assets/font/NanumSquareRoundR.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./assets/font/NanumSquareRoundR.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./assets/font/NanumSquareRoundR.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./assets/font/NanumSquareRoundR.ttf')  format('truetype'); /* Safari, Android, iOS */       
+}
+
+
+@font-face {
+  font-family: "NanumSquareRoundL" ;
+  font-style: normal;
+  font-weight: 700;
+  src: url('./assets/font/NanumSquareRoundB.eot'); /* IE9 Compat Modes */
+  src: url('./assets/font/NanumSquareRoundB.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./assets/font/NanumSquareRoundB.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./assets/font/NanumSquareRoundB.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./assets/font/NanumSquareRoundB.ttf')  format('truetype'); /* Safari, Android, iOS */       
+}
+
+@font-face {
+  font-family: "NanumSquareRoundL" ;
+  font-style: normal;
+  font-weight: 800;
+  src: url('./assets/font/NanumSquareRoundEB.eot'); /* IE9 Compat Modes */
+  src: url('./assets/font/NanumSquareRoundEB.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./assets/font/NanumSquareRoundEB.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./assets/font/NanumSquareRoundEB.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./assets/font/NanumSquareRoundEB.ttf')  format('truetype'); /* Safari, Android, iOS */       
+}

@@ -1,5 +1,7 @@
-function plus(a, b){
-  console.log(a + b);
-}
 
-plus(8,60);
+while(true){
+	let answer = confirm("계속 할까요?");
+	if(!answer){
+	break;
+	}
+}
