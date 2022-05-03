@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  
+}
+
+.button {
+  
+}
+
+.cancel-button {
+  color: #FFFFFF;
+  border: none;
+  border-radius: 100px;
+  color: #FFFFFF;
+  background-color: #FF4949;
+  transition: box-shadow 250ms ease-in;
+}
+
+.cancel-button:hover {
+  box-shadow: 0 10px 16px 0 rgba(255, 73, 73, 0.35);
+}
+
+.canfirm--button {
+  color: #FFFFFF;
+  border: none;
+  border-radius: 100px;
+  background-color: #13CE66;
+}
+
