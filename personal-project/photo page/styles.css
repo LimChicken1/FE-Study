@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+a {
+  color: inherit; 
+  text-decoration: none;
+  outline: none;
+}
+
+/* form의 속성들은 body에 font를 지정해도 
+font가 안먹기 때문에 따로 font를 설정해줘야한다  */
+button,
+input,
+textarea {
+  font-family: "DM Sans", sans-serif;
+	font-size: 16px;
+  outline: none;
+}
+
+button:focus,
+button:active,
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+  outline: none;
+  box-shadow: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+/* Mobile 기준 */
+p {
+  font-size: 10px;
+  line-height: 2;
+  color: #28292D;
+  letter-spacing: -0.01em;
+}
+
+/* navar */
+
+#navar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  
+}
+
+.navar__content {
+  margin-bottom: 48px;
+}
+
+.navar__menu--list {
+  display: flex;
+}
+
+.navar__menu__item {
+  padding: 0 8px;
+}
+
+.navar__menu--login a {
+  padding-right: 6px;
+}
+
+
+/*  home  */
+
+
+.home__content {
+  padding: 48px 20px;
+}
+
+
+.home__desc--p-tag {
+  margin-bottom: 20px;
+}
+
+
+.home__desc--p-tag {
+  text-align: left;
+}
+
+.home__desc {
+  margin-bottom: 20px
+}
+
+.home__imgae--desktop img {
+  display: block;
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.home__title {
+  font-size: 34px;
+  line-height: 1.6;
+  font-weight: 200;
+  margin-bottom: 22px;
+}
+
+.home__desc--font--red {
+  color: #800000;
+}
+
+/* Back to Themes page */
+
+
+.themes__menu--all {
+  background-color: rgb(223, 250, 241);
+}
+
+.themes__icon {
+  text-align: left;
+}
+
+.themes__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.themes__menu-list {
+  display: flex;
+}
+
+.themes__menu--items {
+  padding: 0 16px;
+}
+
+
+.themes__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.themes__btn button {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid black;
+  outline: none;
+  box-shadow: none;
+  background-color: #fff;
+
+}
+
+.themes__card--img img {
+  width: 300px;
+}
+
+h3 {
+  margin-bottom: 30px;
+}
+
+
+/* > 768px (Desktop)   */
+
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 22px;
+    line-height: 1.363636363636364;
+  }
+}
