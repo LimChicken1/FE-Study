@@ -5,6 +5,8 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: #F9F5E6;
+  text-align: start;
 }
 
 /* Reset CSS */
@@ -54,41 +56,72 @@ p {
 
 
 /* navar menu */
-#navar {
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.navar__menu--list {
+  display: flex;
+}
+
+.navar__menu--item {
+  padding: 8px 10px;
+  margin: 0px 12px;
+}
+
+/* choicice page */
+
+#choice {
+  margin-bottom: 32px ;
+  margin: 0 16px;
+}
+
+.choice--title h1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.333333333333333;
+  margin: 60px 0 16px 0;
+}
+
+.choice--desc {
+  margin-bottom: 32px;
+}
+
+.choice--btn button {
+  width: 161px;
+  height: 46px;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  background-color: #3B2186;
+  padding: 14px 40px;
+  margin-bottom: 60px;
+}
+
+.customers__landing--page {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: auto;
-  background-color: #F9F5E6;
 }
 
-.nav__menu {
-  display: flex
+.fa-solid {
+  padding-right: 17.31px;
+}
+.customers__page {
+  margin: 0 16px;
 }
 
-.nav__icon--menu {
-  margin: 23px 20px;
+.customers__landing--title h1 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  
 }
 
-.nav__icon--github {
-  margin: 23px 16px;
-  padding-left: -20px;
-}
-
-.nav__icon--home--h1 {
-  margin: 23px 15px;
-  padding-left: 40px;
-}
-
-.nav__icon--html {
-  margin-top:  23px;
-  margin-left: 100px;
-}
-
-.nav__icon--css {
-  margin: 23px 16px;
-}
 
 
 
@@ -97,3 +130,8 @@ p {
 @media screen and (min-width: 768px) {
   
 }
+
+<i class="fa-solid fa-address-card"></i>
+<i class="fa-solid fa-qrcode"></i>
+<i class="fa-solid fa-globe"></i>
+<i class="fa-solid fa-sack-dollar"></i>
