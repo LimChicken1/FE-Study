@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Reset CSS */
+
+a {
+  outline: none;
+  color: inherit; 
+  text-decoration: none;
+}
+
+/* form의 속성들은 body에 font를 지정해도 
+font가 안먹기 때문에 따로 font를 설정해줘야한다  */
+button,
+input,
+textarea {
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+}
+
+button:focus,
+button:active,
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+  outline: none;
+  box-shadow: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.666666666666667;
+  
+}
+
+/* mobile */
+
+
+
+/* navar menu */
+#navar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: #F9F5E6;
+}
+
+.nav__menu {
+  display: flex
+}
+
+.nav__icon--menu {
+  margin: 23px 20px;
+}
+
+.nav__icon--github {
+  margin: 23px 16px;
+  padding-left: -20px;
+}
+
+.nav__icon--home--h1 {
+  margin: 23px 15px;
+  padding-left: 40px;
+}
+
+.nav__icon--html {
+  margin-top:  23px;
+  margin-left: 100px;
+}
+
+.nav__icon--css {
+  margin: 23px 16px;
+}
+
+
+
+/* > 768px (Desktop)   */
+
+@media screen and (min-width: 768px) {
+  
+}
