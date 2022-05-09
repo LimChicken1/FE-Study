@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+  width: 240px;
+  height: 56px;
+}
+
+.user-photo {
+  position: relative;
+}
+
+.user-photo img {
+  display: block;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+
+.user-status {
+  display: block;
+  position: absolute;
+  right: 8px;
+  bottom: 0px;
+  width: 12px;
+  height: 12px;
+  background-color: #21D891;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}

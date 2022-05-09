@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.card {
+  width: 400px;
+}
+
+.card-carousel img {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  position: relative;
+}
+
