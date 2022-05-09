@@ -21,6 +21,9 @@ button,
 input,
 textarea {
   outline: none;
+  border: none;
+  background: #fff;
+  color: rgb(204, 0, 0);
 }
 
 button:focus,
@@ -41,8 +44,10 @@ li {
   margin-left: 0;
 }
 
-/* mobile */
+/* mobile version*/
 
+
+/* navar */
 .navar {
   display: flex;
   justify-content: space-between;
@@ -78,6 +83,46 @@ li {
   color: #f00;
 }
 
+/* user-info-page */
+
+.user__background img {
+  width: 100%;
+  height: auto;
+}
+
+.user__profile img {
+  display: block;
+  position: absolute;
+  left: 16px;
+  top: 84px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 22px 16px;
+  margin-left: 20px;
+}
+
+.user__name {
+  margin-bottom: 4px;
+}
+
+.user__info {
+  padding: 4px 4px;
+}
+
+.user__info button {
+  margin-right: 6px;
+}
+
+.user__info span {
+  font-size: 14px;
+}
 
 
 
