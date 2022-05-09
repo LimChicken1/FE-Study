@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5;
+}
+
+:root {
+  /* color */
+  --text-color: #f5f5f5;
+  --background-color: #263343;
+  --accent-color:#d49466;
+
+  /* size */
+  --padding:8px 12px;
+  
+  /* font size */
+  --font-large: 18px;
+  --font-medium: 14px;
+  --font-small: 12px;
+  --font-micro: 10px;
+}
+
+
+
+/* Reset CSS */
+
+a {
+  outline: none;
+  color: inherit; 
+  text-decoration: none;
+}
+
+/* form의 속성들은 body에 font를 지정해도 
+font가 안먹기 때문에 따로 font를 설정해줘야한다  */
+button,
+input,
+textarea {
+  outline: none;
+  text-decoration: none;
+}
+
+button:focus,
+button:active,
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+  outline: none;
+  box-shadow: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+
+/* mobile */
+
+.navar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 8px 12px;
+}
+
+.navar__logo {
+  font-size: var(--font-medium)
+  color: white;
+  
+}
+
+.navar__logo i {
+  color: aquamarine;
+  padding:0 8px;
+}
+
+.navar__menu {
+  display: flex;
+  padding-left: 0;
+}
+
+.navar__menu--item {
+  padding: 8px 12px;
+}
+
+.navar__menu--logo {
+  display: flex;
+}
+
+.navar__menu--logo li {
+  padding: 0 8px;
+}
+
+.navar__menu li:hover {
+  background-color: #d49466;
+  border-radius: 4px;
+}
+
+.navar__togglebtn {
+  display: none;
+  position: absolute;
+  right: 32px;
+}
+
+
+/* > 768px (Desktop)   */
+
+@media screen and (max-width: 768px) {
+  .navar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navar__menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navar__logo {
+    flex-direction: column;
+  }
+
+  .navar__menu li:hover {
+    background-color: #d49466;
+    border-radius: 4px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navar__menu--logo  {
+    display: none;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navar__togglebtn {
+    display: block;
+  }
+
+  .navar__menu.active,
+  .navar__menu--logo.active {
+    display: flex;
+  }
+}
