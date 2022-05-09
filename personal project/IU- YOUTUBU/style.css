@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Reset CSS */
+
+a {
+  outline: none;
+  color: inherit; 
+  text-decoration: none;
+}
+
+/* form의 속성들은 body에 font를 지정해도 
+font가 안먹기 때문에 따로 font를 설정해줘야한다  */
+button,
+input,
+textarea {
+  outline: none;
+}
+
+button:focus,
+button:active,
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+  outline: none;
+  box-shadow: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* mobile */
+
+.navar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navar__logo {
+  display: flex;
+  padding: 8px 12px;
+  
+}
+
+.navar__logo i {
+  font-size: 30px;
+  margin-right: 8px;
+  margin-bottom: 3px;
+}
+
+.navar__title {
+  font-size: 15px;
+}
+
+
+.navar__menu {
+  display: flex;
+}
+
+.navar__menu--items {
+  padding: 8px 12px;
+}
+
+.navar__logo i {
+  color: #f00;
+}
+
+
+
+
+/* > 768px (Desktop)   */
+
+@media screen and (min-width: 768px) {
+  
+}
