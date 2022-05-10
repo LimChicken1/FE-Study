@@ -1,3 +1,6 @@
+//slid 노트 주소 
+//https://slid.cc/docs/cf7a0e72752f4c9d93fd13dd641e97cd
+
 let a = 0;
 console.log(a);
 

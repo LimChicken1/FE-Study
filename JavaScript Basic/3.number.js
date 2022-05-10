@@ -1,3 +1,6 @@
+//slid 노트 주소 
+//https://slid.cc/docs/2f92fd16d2304a5eb316d9f45726dba7
+
 let integer =123; //정수
 let negative = -123; //음수
 let double = 1.23; //실수
