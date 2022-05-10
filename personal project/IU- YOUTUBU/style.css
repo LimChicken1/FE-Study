@@ -23,7 +23,7 @@ textarea {
   outline: none;
   border: none;
   background: #fff;
-  color: rgb(204, 0, 0);
+  padding: 0;
 }
 
 button:focus,
@@ -54,6 +54,10 @@ li {
   align-items: center;
 }
 
+.desk__menu--icon {
+  display: none;
+}
+
 .navar__logo {
   display: flex;
   padding: 8px 12px;
@@ -66,14 +70,27 @@ li {
   margin-bottom: 3px;
 }
 
+.navar__logo h1 {
+  display: none;
+}
+
+
 .navar__title {
   font-size: 15px;
 }
 
+.desk__search--box {
+  display: none;
+}
+
+.desk__menu {
+  display: none;
+}
 
 .navar__menu {
   display: flex;
 }
+
 
 .navar__menu--items {
   padding: 8px 12px;
@@ -110,6 +127,7 @@ li {
 
 .user__name {
   margin-bottom: 4px;
+  font-size: 1.25rem;
 }
 
 .user__info {
@@ -124,10 +142,155 @@ li {
   font-size: 14px;
 }
 
+ /* youtube-menu--list  */
 
+.menu {
+  
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.menu__list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 2px -2px rgb(0 0 0 / 20%);
+  margin-bottom: 12px;
+}
+
+.menu__items  {
+  width: 100%;
+  padding: 14px 14px;
+  font-size: 14px;
+}
+
+/* main--video player */
+
+.player video {
+  width: 100%;
+  height: 100%;
+}
+
+.video--desc  {
+  width: 100%;
+  padding: 10px 12px 10px 12px;
+  border-bottom: 0.01px solid darkgray;
+  font-size: 14px;
+}
 
 /* > 768px (Desktop)   */
 
 @media screen and (min-width: 768px) {
+  .navar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 768px;
+  }
+
+  .navar__title {
+    display: none;
+  }
+
+  .navar__menu {
+    display: none;
+  }
+
+  .desk__menu--icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .desk__menu--icon i {
+    margin: 0 16px;
+    text-align: center;
+  }
+
+  .desk__search--box {
+    margin: 0 20px;
+
+  }
+
+  .desk__search__input--box form {
+    border: 1px solid #d3d3d3;
+    
+  }
+
+  .desk__search__input--box 
+  form input {
+    width: 230px;
+    height: 36px;
+    padding: 2px 6px;
+  } 
   
+
+  .desk__search--Btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 38px;
+    border: 1px solid #d3d3d3;
+    margin-right: 12px;
+  }
+
+  .desk__search--Btn i {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .desk__menu {
+    width: 100%;
+    display: flex;
+  }
+
+  .desk__menu--item {
+    padding: 8px 16px;
+  }
+
+
+  .desk__menu--icon {
+    padding: 0 12px;
+    
+  }
+
+  .desk__search--box {
+    display: flex;
+  }
+
+  /*user-background */
+  .user__background {
+    max-width: 1000px;
+  }
+
+  .subscribe {
+    max-width: 1000px;
+    padding: 8px 12px;
+    margin: 0 24px;
+    text-align: center;
+  }
+
+  
+
+
+  .subscribe .user__info {
+    display: flex;
+  }
+  
+  
+
+
+
+  .menu  {
+    max-width: 1000px;
+  }
+
+  .player {
+    max-width: 424px;
+  }
+
 }

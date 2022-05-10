@@ -12,14 +12,71 @@
 <body>
   <!-- navar -->
   <nav class="navar">
+    <!-- 데스크탑 메뉴 아이콘 -->
+    <div class="desk__menu--icon">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <!-- 모바일  타이틀 -->
     <div class="navar__logo">
       <i class="fa-brands fa-youtube"></i>
+      <h1>Premium</h1>
       <div class="navar__title">
         이지금
         <strong>[IU Official]</strong>
       </div>
     </div>
 
+    <!-- 데스크탑에서 보이기  
+      search input box +btn -->
+
+    <ul class="desk__search--box">
+      <li class="desk__search__input--box">
+        <form action="#" method="post">
+          <input type="text" placeholder="검색">
+        </form>
+      </li>
+      <li class="desk__search--Btn">
+        <button type="button">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </li>
+    </ul>
+
+    <!-- 데스크탑 navar menu -->
+    <ul class="desk__menu">
+      <li class="desk__menu--item">
+        <span class="desk__search--icon">
+          <a href="#">
+            <i class="fa-solid fa-microphone"></i>
+          </a>
+        </span>
+      </li>
+      <li class="desk__menu--item">
+        <span class="desk__video--icon">
+          <a href="#">
+            <i class="fa-solid fa-file-video"></i>
+          </a>
+        </span>
+      </li>
+      <li class="desk__menu--item">
+        <span class="desk__more-icon">
+          <i class="fa-solid fa-table-cells-large"></i>
+        </span>
+      </li>
+      <li class="desk__menu--item">
+        <span class="desk__bell--icon">
+          <a href="#">
+            <i class="fa-solid fa-bell"></i>
+          </a>
+        </span>
+      </li>
+      <li class="desk__menu--item">
+        <span class="desk__user-profile"></span>
+      </li>
+    </ul>
+
+    <!-- 모바일 icon  -->
     <ul class="navar__menu">
       <li class="navar__menu--items">
         <div class="search--icon">
@@ -34,21 +91,53 @@
     </ul>
     
   </nav>
-  <!-- user-info-page -->
+  <!-- user-profile-page -->
   <section>
     <div class="user__background">
       <img src="./img/channels4_banner.jpg" alt="">
     </div>
-    <div class="user__profile">
-      <img src="./img/IU-profile.jpg" alt="">
-    </div>
-    
     <div class="subscribe">
-      <div class="user__name">이지금 [IU Official]</div>
+      <div class="user__profile">
+        <img src="./img/IU-profile.jpg" alt="IU Profile">
+      </div>
+      <div class="user__name">
+        이지금 [IU Official]
+      </div>
       <div class="user__info">
         <button type="button">구독</button>
         <span>구독자 754만명</span>
       </div>
+    </div>
+  </section>
+  <!-- youtube-menu--list  -->
+  <section class="menu">
+    <ul class="menu__list">
+      <li class="menu__items">
+        <div class="menu__items--home">
+          <a href="#">홈</a>
+        </div>
+      </li>
+      <li class="menu__items">
+        <a href="#">동영상</a>
+      </li>
+      <li class="menu__items">
+        <a href="#">재생목록</a>
+      </li>
+      <li class="menu__items">
+        <span class="menu__items">
+          <i class="fa-solid fa-angle-down"></i>
+        </span>
+      </li>
+    </ul>
+  </section>
+  <!-- main--video page -->
+  <section class="player">
+    <video controls src="./video/[MV] IU(아이유) _ strawberry moon.mp4">
+    </video>
+    <div class="video--desc">
+      <span>
+        [MV] IU(아이유) _ strawberry moon
+      </span>
     </div>
   </section>
 </body>
