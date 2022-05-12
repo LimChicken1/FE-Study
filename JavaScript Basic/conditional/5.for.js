@@ -29,10 +29,10 @@ for(let i = 0; i < 5; i++) {
 // 반복문 제어: continue, break;
 for (let i = 0 ; i <20; i++) {
     if(i === 10) {
-      continue;
+      continue; //조건이 맞으면 그다음 조건으로 넘어가는것 
       console.log('i가 드디어 10이 되었다!'); //i가 10이 되었을때 for문을 종료하고싶을때 
       
-      break;
+      break; //조건이 맞으면 반복문을 종료하는것. 
     }
       console.log(i);
 }
