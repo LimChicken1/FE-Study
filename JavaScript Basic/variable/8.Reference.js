@@ -14,5 +14,5 @@ let apple = {  //2. apple이 가르키고 있는 주소값이 복사됨.
 
 let orange = apple; //1.apple이라는 객체에 orange를 할당하게 되면 어떻게 될까? 
 orange.name ='오렌지'; //3. 객체안에 이름을 바꾸게 되면 
-console.log(apple);
+console.log(apple); //4. apple을 출력해도 oramge로 바뀌게 된다.
 console.log(orange);
