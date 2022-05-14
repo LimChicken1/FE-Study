@@ -16,6 +16,8 @@
 // console.log(apple);
 // console.log(orange);
 
+
+
 //생성자 함수
 function Fruit(name, emoji) { //Fruit <대문자로 만들면 생성자 함수를 만들 수있음.
   this.name = name; //this를 이용하면 객체 자기 자신을 가리킬수 있음
