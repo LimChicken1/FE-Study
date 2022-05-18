@@ -1,1 +1,1 @@
-![](./img/TypingGame.PNG)
+![](./img/ezgif.com-gif-maker.gif)
